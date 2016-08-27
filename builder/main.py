@@ -34,7 +34,8 @@ target_bin = env.BuildProgram()
 # Target: Print binary size
 #
 
-target_size = env.Alias("size", target_bin, "$SIZEPRINTCMD")
+target_size = env.Alias("size", target_bin, env.VerboseAction(
+    "$SIZEPRINTCMD", "Calculating size $SOURCE"))
 AlwaysBuild(target_size)
 
 #
