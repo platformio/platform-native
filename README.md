@@ -17,5 +17,5 @@ Native development platform is intended to be used for desktop OS. This platform
 > platformio platform install native
 
 # install development version
-> platformio platform install https://github.com/platformio/platform-native/archive/develop.zip
+> platformio platform install https://github.com/platformio/platform-native.git
 ```
