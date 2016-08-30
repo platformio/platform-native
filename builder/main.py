@@ -34,17 +34,12 @@ target_bin = env.BuildProgram()
 # Target: Print binary size
 #
 
-target_size = env.Alias("size", target_bin, "$SIZEPRINTCMD")
+target_size = env.Alias("size", target_bin, env.VerboseAction(
+    "$SIZEPRINTCMD", "Calculating size $SOURCE"))
 AlwaysBuild(target_size)
 
 #
-# Target: Unit Testing
-#
-
-AlwaysBuild(env.Alias("test", [target_bin, target_size]))
-
-#
-# Target: Define targets
+# Default targets
 #
 
 Default([target_bin])
