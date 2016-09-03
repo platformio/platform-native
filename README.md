@@ -13,7 +13,7 @@ Native development platform is intended to be used for desktop OS. This platform
 1. [Install PlatformIO CLI](http://docs.platformio.org/en/latest/installation.html)
 2. Install Native development platform:
 ```bash
-# isntall the latest stable version
+# install the latest stable version
 > platformio platform install native
 
 # install development version
