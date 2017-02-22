@@ -10,7 +10,7 @@ Native development platform is intended to be used for desktop OS. This platform
 
 # Usage
 
-1. [Install PlatformIO Core](http://docs.platformio.org/en/latest/core.html)
+1. [Install PlatformIO Core](http://docs.platformio.org/page/core.html)
 2. Install Native development platform:
 ```bash
 # install the latest stable version
