@@ -6,11 +6,11 @@
 Native development platform is intended to be used for desktop OS. This platform uses built-in toolchains (preferable based on GCC), frameworks, libs from particular OS where it will be run.
 
 * [Home](http://platformio.org/platforms/native) (home page in PlatformIO Platform Registry)
-* [Documentation](http://docs.platformio.org/en/stable/platforms/native.html) (advanced usage, packages, boards, frameworks, etc.)
+* [Documentation](http://docs.platformio.org/page/platforms/native.html) (advanced usage, packages, boards, frameworks, etc.)
 
 # Usage
 
-1. [Install PlatformIO CLI](http://docs.platformio.org/en/stable/installation.html)
+1. [Install PlatformIO Core](http://docs.platformio.org/page/core.html)
 2. Install Native development platform:
 ```bash
 # install the latest stable version
