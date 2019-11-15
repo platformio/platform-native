@@ -6,13 +6,13 @@
   "homepage": "http://platformio.org/platforms/native",
   "license": "Apache-2.0",
   "engines": {
-    "platformio": "^3.0.0"
+    "platformio": "<5"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/platformio/platform-native.git"
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "packageRepositories": [
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
     "http://dl.platformio.org/packages/manifest.json"

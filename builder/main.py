@@ -20,9 +20,15 @@ from SCons.Script import AlwaysBuild, Default, DefaultEnvironment
 
 env = DefaultEnvironment()
 
-env.Replace(
-    SIZEPRINTCMD="size $SOURCES"
-)
+# Remove generic C/C++ tools
+for k in ("CC", "CXX"):
+    if k in env:
+        del env[k]
+
+# Scan for GCC compiler
+env.Tool("gcc")
+env.Tool("g++")
+
 
 #
 # Target: Build executable program
