@@ -25,10 +25,16 @@ for k in ("CC", "CXX"):
     if k in env:
         del env[k]
 
+# Preserve C and C++ build flags
+backup_cflags = env.get("CFLAGS", [])
+backup_cxxflags = env.get("CXXFLAGS", [])
+
 # Scan for GCC compiler
 env.Tool("gcc")
 env.Tool("g++")
 
+# Restore C/C++ build flags as they were overridden by env.Tool
+env.Append(CFLAGS=backup_cflags, CXXFLAGS=backup_cxxflags)
 
 #
 # Target: Build executable program
