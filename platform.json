@@ -12,6 +12,19 @@
   "engines": {
     "platformio": "^5"
   },
+  "packages": {
+    "framework-portduino": {
+      "type": "framework",
+      "version": "https://github.com/geeksville/framework-portduino.git",
+      "optional": true
+    }
+  },
+  "frameworks": {
+    "arduino": {
+      "package": "framework-portduino",
+      "script": "builder/frameworks/arduino.py"
+    }
+  },  
   "repository": {
     "type": "git",
     "url": "https://github.com/platformio/platform-native.git"
