@@ -70,8 +70,7 @@ env.Append(
 
     LIBS=[
         "stdc++",
-        "m",
-        "psocksxx"
+        "m"
     ],
 
     LIBSOURCE_DIRS=[
