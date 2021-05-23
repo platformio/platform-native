@@ -1,7 +1,7 @@
 {
   "build": {
     "core": "FIXMECORE",
-    "extra_flags": "-DFIXMEFLAG",
+    "extra_flags": "-DPORTDUINO_LINUX_HARDWARE",
     "variant": "native"
   },
   "upload": {
