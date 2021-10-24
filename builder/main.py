@@ -16,7 +16,7 @@
     Builder for native platform
 """
 
-from SCons.Script import AlwaysBuild, Default, DefaultEnvironment
+from SCons.Script import COMMAND_LINE_TARGETS, AlwaysBuild, Default, DefaultEnvironment
 
 env = DefaultEnvironment()
 
@@ -32,6 +32,10 @@ backup_cxxflags = env.get("CXXFLAGS", [])
 # Scan for GCC compiler
 env.Tool("gcc")
 env.Tool("g++")
+
+# Reload "compilation_db" tool
+if "compiledb" in COMMAND_LINE_TARGETS:
+    env.Tool("compilation_db")
 
 # Restore C/C++ build flags as they were overridden by env.Tool
 env.Append(CFLAGS=backup_cflags, CXXFLAGS=backup_cxxflags)
