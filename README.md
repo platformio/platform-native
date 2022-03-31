@@ -5,13 +5,13 @@
 
 Native development platform is intended to be used for desktop OS. This platform uses built-in toolchains (preferable based on GCC), frameworks, libs from particular OS where it will be run.
 
-* [Home](http://platformio.org/platforms/native) (home page in PlatformIO Platform Registry)
-* [Documentation](http://docs.platformio.org/page/platforms/native.html) (advanced usage, packages, boards, frameworks, etc.)
+* [Home](https://registry.platformio.org/platforms/platformio/native) (home page in the PlatformIO Registry)
+* [Documentation](https://docs.platformio.org/page/platforms/native.html) (advanced usage, packages, boards, frameworks, etc.)
 
 # Usage
 
 1. [Install PlatformIO](http://platformio.org)
-2. Create PlatformIO project and configure a platform option in [platformio.ini](http://docs.platformio.org/page/projectconf.html) file:
+2. Create PlatformIO project and configure a platform option in [platformio.ini](https://docs.platformio.org/page/projectconf.html) file:
 
 ## Stable version
 
@@ -33,4 +33,4 @@ board = ...
 
 # Configuration
 
-Please navigate to [documentation](http://docs.platformio.org/page/platforms/native.html).
+Please navigate to [documentation](https://docs.platformio.org/page/platforms/native.html).
