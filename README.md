@@ -1,7 +1,5 @@
 # Native: development platform for [PlatformIO](http://platformio.org)
-[![Build Status](https://travis-ci.org/platformio/platform-native.svg?branch=develop)](https://travis-ci.org/platformio/platform-native)
-[![Build status](https://ci.appveyor.com/api/projects/status/bxxdqmovprfd7vsu/branch/develop?svg=true)](https://ci.appveyor.com/project/ivankravets/platform-native/branch/develop)
-
+[![Build Status](https://github.com/platformio/platform-native/workflows/Examples/badge.svg)](https://github.com/platformio/platform-native/actions)
 
 Native development platform is intended to be used for desktop OS. This platform uses built-in toolchains (preferable based on GCC), frameworks, libs from particular OS where it will be run.
 
