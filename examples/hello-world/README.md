@@ -13,8 +13,10 @@ $ cd platform-native/examples/hello-world
 # Build project
 $ pio run
 
-# Run program
-> .pioenvs/native/program
+# Execute program
+$ pio run --target exec
+# or using embedded's "upload" target
+$ pio run --target upload
 
 # Clean build files
 $ pio run --target clean
