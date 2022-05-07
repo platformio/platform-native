@@ -47,6 +47,16 @@ env.Append(CFLAGS=backup_cflags, CXXFLAGS=backup_cxxflags)
 target_bin = env.BuildProgram()
 
 #
+# Target: Execute binary
+#
+
+exec_action = env.VerboseAction(
+    "$SOURCE $PROGRAM_ARGS", "Executing $SOURCE")
+
+AlwaysBuild(env.Alias("exec", target_bin, exec_action))
+AlwaysBuild(env.Alias("upload", target_bin, exec_action))
+
+#
 # Target: Print binary size
 #
 

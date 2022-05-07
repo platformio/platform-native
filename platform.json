@@ -2,7 +2,7 @@
   "name": "native",
   "title": "Native",
   "description": "Native development platform is intended to be used for desktop OS. This platform uses built-in toolchains (preferable based on GCC), frameworks, libs from particular OS where it will be run.",
-  "homepage": "http://platformio.org/platforms/native",
+  "homepage": "https://registry.platformio.org/platforms/platformio/native",
   "license": "Apache-2.0",
   "keywords": [
       "dev-platform",
@@ -16,5 +16,5 @@
     "type": "git",
     "url": "https://github.com/platformio/platform-native.git"
   },
-  "version": "1.1.4"
+  "version": "1.2.0"
 }
