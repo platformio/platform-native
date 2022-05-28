@@ -10,11 +10,11 @@
       "desktop"
   ],
   "engines": {
-    "platformio": "^5"
+    "platformio": "^6"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/platformio/platform-native.git"
   },
-  "version": "1.2.0"
+  "version": "1.2.1"
 }

@@ -1,4 +1,4 @@
-# Native: development platform for [PlatformIO](http://platformio.org)
+# Native: development platform for [PlatformIO](https://platformio.org)
 [![Build Status](https://github.com/platformio/platform-native/workflows/Examples/badge.svg)](https://github.com/platformio/platform-native/actions)
 
 Native development platform is intended to be used for desktop OS. This platform uses built-in toolchains (preferable based on GCC), frameworks, libs from particular OS where it will be run.
@@ -8,7 +8,7 @@ Native development platform is intended to be used for desktop OS. This platform
 
 # Usage
 
-1. [Install PlatformIO](http://platformio.org)
+1. [Install PlatformIO](https://platformio.org)
 2. Create PlatformIO project and configure a platform option in [platformio.ini](https://docs.platformio.org/page/projectconf.html) file:
 
 ## Stable version
