@@ -20,11 +20,6 @@ from SCons.Script import COMMAND_LINE_TARGETS, AlwaysBuild, Default, DefaultEnvi
 
 env = DefaultEnvironment()
 
-# Remove generic C/C++ tools
-for k in ("CC", "CXX"):
-    if k in env:
-        del env[k]
-
 # Preserve C and C++ build flags
 backup_cflags = env.get("CFLAGS", [])
 backup_cxxflags = env.get("CXXFLAGS", [])
