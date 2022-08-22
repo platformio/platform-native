@@ -1,0 +1,15 @@
+{
+  "build": {
+    "core": "FIXMECORE",
+    "extra_flags": "-DPORTDUINO_LINUX_HARDWARE",
+    "variant": "native"
+  },
+  "upload": {
+    "maximum_ram_size": 99999999,
+    "maximum_size": 99999999
+  },
+  "frameworks": ["arduino"],
+  "name": "Portduino",
+  "url": "https://github.com/geeksville/framework-portduino",
+  "vendor": "Geeksville Industries, LLC"
+}
